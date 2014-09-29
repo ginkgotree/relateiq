@@ -50,8 +50,8 @@ Create a contact:
       :title=> [{:value=> "CEO"}]
     }
 
-    response = RelateIQ.post('/contacts', { :properties => contact })
+    response = RelateIQ.post('contacts', { :properties => contact })
 
 Get a list of contacts:
 
-    response = RelateIQ.get('/contacts')
+    response = RelateIQ.get('contacts')
