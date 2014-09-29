@@ -15,8 +15,9 @@ module RelateIQ
 
     attr_accessor :api_key, :api_secret, :base_url, :version
 
-    def configure(params)
+    def configure(params, &block)
       raise ArgumentError, "You must include both the api_key and api_secret" unless (params.include?(:api_key) && params.include?(:api_secret))
+      yield self if block_given?
       @api_key = params[:api_key]
       @api_secret = params[:api_secret]
       @base_url = params[:base_url]
