@@ -1,3 +1,6 @@
+
+[![Code Climate](https://codeclimate.com/github/malachaifrazier/relateiq/badges/gpa.svg)](https://codeclimate.com/github/malachaifrazier/relateiq)
+
 # RelateIQ API Ruby Client
 
 A ruby-based http client for the RelateIQ API
