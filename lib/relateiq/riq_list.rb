@@ -9,11 +9,11 @@ module RelateIQ
     end
 
     def <<(val)
-        @list << val
+      @list << val
     end
 
     def each(&block)
-        @list.each(&block)
+      @list.each(&block)
     end
 
   end
