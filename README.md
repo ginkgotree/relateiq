@@ -11,6 +11,11 @@ For the latest information on the API, look at:
 
 ##Usage Examples##
 
+###Load all the things in IRB:####
+Initialize a new irb session and preload your library
+    'rake console'
+
+
 ###Including the gem in your Gemfile###
 
     gem 'relateiq'
