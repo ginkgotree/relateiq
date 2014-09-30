@@ -20,7 +20,7 @@ module RelateIQ
       @api_key = params[:api_key]
       @api_secret = params[:api_secret]
       @base_url = params[:base_url]
-      @version = 'v1'
+      @version = 'v2'
       @version = params[:version] if params[:version]
       true
     end
